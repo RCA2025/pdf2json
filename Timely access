@@ -1,0 +1,85 @@
+{					
+	fields: {				
+		report_date: "2/19/2025",			
+		report_time: "3:14 PM",			
+		results_count: 8,			
+		report_details: {			
+			MU_2024_TIMELY_ACCESS: {		
+				reporting_period: "01/01/2024 to 12/31/2024",	
+				generated_date: "02/19/2025",	
+				reporting_content_version: "24.11",	
+				EHR_version: "25.1",	
+				EHR_install_date: "02/03/2025",	
+				description: "OB2",	
+				details: {	
+					denominator: "Number of unique patients seen by the EP during the EHR reporting period",
+					numerator: "The number of patients in the denominator who have timely (within 4 business days) online access to their health information",
+					exclusions: "Neither orders nor creates any of the information listed for inclusion as part of both measures, except for 'Patient name' and 'Providers name and office contact information', may exclude both measures",
+					threshold: "More than 50 percent of all unique patients seen by the EP during the EHR reporting period are provided timely online access to their health information",
+					disclaimer: "Client is solely responsible for implementing, refining, and following required certified workflows, understanding the application's business rules, selecting appropriate workflows and business practices to meet Meaningful Use compliance requirements, and monitoring and ensuring continued Meaningful Use compliance throughout the defined attestation period. Client is responsible for ensuring any implemented and revised business processes comply with all applicable federal, state, and local laws."
+				}	
+			},		
+			additional_info: {		
+				MU_2015: "has been renamed to Promoting Interoperability (PI) for Modified MU Stage 2",	
+				retention_policy: "Retain, Save and/or Print the final report used for attestation in a secure location for up to 6 years post-attestation",	
+				audit_info_link: "http://www.cms.gov/Requlations-and-Guidance/Legislation/EHRIncentivePrograms/Downloads/EHRAuditOverviewFactSheet.pdf"	
+			},		
+			results_by_location: [		
+				{	
+					location_name: "Regional Cardiac Arrhythmia - Jefferson",
+					numerator: 712,
+					denominator: 718,
+					percentage: "99.2%"
+				},	
+				{	
+					location_name: "Regional Cardiac Arrhythmia Sharon",
+					numerator: 353,
+					denominator: 358,
+					percentage: "98.6%"
+				},	
+				{	
+					location_name: "Regional Cardiac Arrhythmia Washington PA",
+					numerator: 726,
+					denominator: 804,
+					percentage: "90.3%"
+				},	
+				{	
+					location_name: "Regional Cardiac Arrhythmia - Wheeling",
+					numerator: 563,
+					denominator: 586,
+					percentage: "96.1%"
+				},	
+				{	
+					location_name: "Regional Cardiac Arrythmia - Weirton Office",
+					numerator: 132,
+					denominator: 134,
+					percentage: "98.5%"
+				}	
+			],		
+			results_by_caregiver: [		
+				{	
+					caregiver_name: "Bedi, Maninder S. MD",
+					numerator: 15,
+					denominator: 15,
+					percentage: "100.0%"
+				},	
+				{	
+					caregiver_name: "Kolibash, Christopher P. MD",
+					numerator: 271,
+					denominator: 302,
+					percentage: "89.7%"
+				},	
+				{	
+					caregiver_name: "Miske, Glen DO",
+					numerator: 2258,
+					denominator: 2343,
+					percentage: "96.4%"
+				}	
+			]		
+		},			
+		ehr_system: "Veradigm EHR 25.1",			
+		page_info: "Page 1/1",			
+		additional_notes: "Allscripts"			
+	},				
+	text: "Report Results : 2/19/2025 3:14 PM , 8 results\n* MU 2024 TIMELY ACCESS\nReporting period : 01/01/2024 to 12/31/2024\nReport Generated Date : 02/19/2025\nReport results were calculated using Reporting Content version : 24.11\nReport results were calculated using Veradigm EHR version : 25.1 Version Install Date : 02/03/2025\nDescription : OB2\nDetails : Denominator Number of unique patients seen by the EP during the EHR reporting period\nNumerator - The number of patients in the denominator who have timely ( within 4 business days after the\ninformation is available to the EP ) online access to their health information .\nExclusions Neither orders nor creates any of the information listed for inclusion as part of both measures ,\nexcept for \" Patient name \" and \" Providers name and office contact information , may exclude both measures .\nThreshold - More than 50 percent of all unique patients seen by the EP during the EHR reporting period are\nprovided timely ( available to the patient within 4 business days after the information is available to the EP )\nonline access to their health information subject to the EPs discretion to withhold certain information\nDisclaimer - Client is solely responsible for implementing , refining , and following required certified\nworkflows , understanding the application's business rules , selecting appropriate workflows and business\npractices to meet Meaningful Use compliance requirements , and monitoring and ensuring continued\nMeaningful Use compliance throughout the defined attestation period . Client is responsible for ensuring any\nimplemented and revised business processes comply with all applicable federal , state , and local laws .\nNOTWITHSTANDING ANYTHING TO THE CONTRARY HEREIN , VERADIGM MAKES NO REPRESENTATION OR\nWARRANTY AS TO CLIENT BECOMING A \" MEANINGFUL USER \" OF ITS EHR SOFTWARE ( AS MODIFIED TO\nMEET THE DEFINITION OF CERTIFIED EHR ) WITHIN THE TIMEFRAMES PRESCRIBED BY THE HITECH ACT .\n* MU 2015 has been renamed to Promoting Interoperability ( PI ) , for Modified MU Stage 2 .\n* Retain , Save and / or Print the final report used for attestation in a secure location for up to 6 years post-\nattestation .\nSee : http://www.cms.gov/Requlations-and-\nGuidance / Legislation / EHRIncentive Programs / Downloads / EHR Audit Overview FactSheet.pdf\nBy Location\nLocation Name Numerator Denominator Percentage\nRegional Cardiac Arrhythmia - Jefferson 712 718 99.2 %\nRegional Cardiac Arrhythmia Sharon 353 358 98.6 %\nRegional Cardiac Arrhythmia Washington PA 726 804 90.3 %\nRegional Cardiac Arrhythmia - Wheeling 563 586 96.1 %\nRegional Cardiac Arrythmia - Weirton Office 132 134 98.5 %\nBy Caregiver\nCaregiver Name Numerator Denominator Percentage\nBedi , Maninder S. MD 15 15 100.0 %\nKolibash , Christopher P. MD 271 302 89.7 %\nMiske , Glen DO 2258 2343 96.4 %\n02/19/2025 03:14 pm Veradigm EHR 25.1 Page 1/1\n\u003e Allscripts"				
+}					
